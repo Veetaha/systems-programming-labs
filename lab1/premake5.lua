@@ -13,9 +13,7 @@ project "lab1"
     objdir     "build/bin-int"
 
     files { "src/**.c" }
-    includedirs {
-        "include"
-    }
+    includedirs { "include" }
 
     -- linkoptions {
     -- }
@@ -43,6 +41,9 @@ project "lab1"
         runtime "Debug"
         defines { "DEBUG" }
         buildoptions {
+            "-g3"
+        }
+        linkoptions {
             "-g3"
         }
 
