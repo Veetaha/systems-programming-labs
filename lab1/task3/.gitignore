@@ -1,0 +1,6 @@
+Makefile
+build
+bin
+.vscode
+input.txt
+output.txt
